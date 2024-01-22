@@ -1,49 +1,50 @@
-
 .QuoteGenerator {
-    text-align: center;
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
- .Quote {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  .quoteButton {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .quoteButton:hover {
-    background-color: #45a049;
-  }
-  
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Quote {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.quoteButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quoteButton:hover {
+  background-color: #45a049;
+}
+
 
 .warning {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: center;
+  font-weight: initial;
+  text-align: center;
+}
+
 .disclaimer {
-    font-size: 14px; 
-    margin-bottom: 10px; 
-  }
-  
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
 .small {
-    font-size: 12px; 
-    margin-top: 5px; 
-  }
-  
+  font-size: 12px;
+  margin-top: 5px;
+}
