@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lovequotesapp/static/css/main.f6a1b5ba.css",
+    "main.css": "/lovequotesapp/static/css/main.49b9c5e2.css",
     "main.js": "/lovequotesapp/static/js/main.050b2689.js",
     "index.html": "/lovequotesapp/index.html",
-    "main.f6a1b5ba.css.map": "/lovequotesapp/static/css/main.f6a1b5ba.css.map",
+    "main.49b9c5e2.css.map": "/lovequotesapp/static/css/main.49b9c5e2.css.map",
     "main.050b2689.js.map": "/lovequotesapp/static/js/main.050b2689.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6a1b5ba.css",
+    "static/css/main.49b9c5e2.css",
     "static/js/main.050b2689.js"
   ]
 }
