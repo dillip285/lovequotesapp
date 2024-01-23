@@ -7,3 +7,64 @@
   padding: 20px;
   color: white;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  /* Add padding on both edges */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Margin for first and last columns */
+ul:first-child {
+  margin-right: 20px;
+  /* Adjust the margin as needed */
+}
+
+ul:last-child {
+  margin-left: 20px;
+  /* Adjust the margin as needed */
+}
+
+/* Media query for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+}
