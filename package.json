@@ -2,6 +2,7 @@
   "name": "lovequotesapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dillip285.github.io/lovequotesapp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
